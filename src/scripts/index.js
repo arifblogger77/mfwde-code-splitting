@@ -1,5 +1,7 @@
 import '../styles/main.css';
 import filter from 'lodash.filter';
+import $ from 'jquery';
+import axios from 'axios';
 import contacts from './contacts';
 
 const inputContactForm = document.querySelector('#inputContactForm');
